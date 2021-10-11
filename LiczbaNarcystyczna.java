@@ -16,14 +16,15 @@ public class LiczbaNarcystyczna{
         {
             int reszta = tempX%10;
             tempX /= 10;
-            System.out.print("Iteracja("+i+") tempX: "+tempX+ " reszta: "+reszta);
+     //       System.out.print("Iteracja("+i+") tempX: "+tempX+ " reszta: "+reszta);
             
             suma = suma + poteguj(reszta, licznikPotegi);
             mnoznik /= 10;
-            System.out.println(" Mnoznik: "+mnoznik+" licznikPotegi: "+licznikPotegi+" suma: "+suma+" x: "+x);
+         //   System.out.println(" Mnoznik: "+mnoznik+" licznikPotegi: "+licznikPotegi+" suma: "+suma+" x: "+x);
         }
         if(suma == x) System.out.println("Liczba "+x+" jest liczba narcystyczna.");
         else System.out.println("Liczba "+x+" nie jest liczba narcystyczna.");
+       // System.out.println("tempX: "+tempX + " Mnoznik: "+mnoznik+" licznikPotegi: "+licznikPotegi+" suma: "+suma+" x: "+x);
      }
      
      public static int poteguj(int liczba, int mnoznik)
