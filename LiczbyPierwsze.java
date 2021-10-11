@@ -2,9 +2,9 @@ public class LiczbaPierwsza{
 
      public static void main(String []args){
          
-      int zakres = 6;
+      int zakres = 13;
       
-      for(int x = 1 ; x < zakres ; x++)
+      for(int x = 1 ; x < zakres+1; x++)
       {
         if(czyPierwsza(x)) System.out.print(x+", ");
       }
