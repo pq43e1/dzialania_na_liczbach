@@ -6,7 +6,11 @@ public class LiczbaPierwsza{
       
       for(int x = 1 ; x < zakres+1; x++)
       {
-        if(czyPierwsza(x)) System.out.print(x+", ");
+        if(czyPierwsza(x)){
+            if(x==zakres) System.out.print(x);
+            else
+            System.out.print(x+", ");
+        } 
       }
     }
     
