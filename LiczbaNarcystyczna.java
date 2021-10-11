@@ -24,7 +24,6 @@ public class LiczbaNarcystyczna{
         }
         if(suma == x) System.out.println("Liczba "+x+" jest liczba narcystyczna.");
         else System.out.println("Liczba "+x+" nie jest liczba narcystyczna.");
-       // System.out.println("tempX: "+tempX + " Mnoznik: "+mnoznik+" licznikPotegi: "+licznikPotegi+" suma: "+suma+" x: "+x);
      }
      
      public static int poteguj(int liczba, int mnoznik)
