@@ -6,8 +6,8 @@ public class Ulamek {
         return new double[]{a1*a2, b1*b2};
     }
 
-    public static double[] poteguj(double a, double b){
-        return new double[]{Math.pow(a, 2), Math.pow(b, 2)};
+    public static double[] poteguj(double a, double b, int potega){
+        return new double[]{Math.pow(a, potega), Math.pow(b, potega)};
     }
 
     public static double[] pierwiastkuj(double a, double b){
